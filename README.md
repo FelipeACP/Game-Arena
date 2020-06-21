@@ -1,2 +1,3 @@
 # Game-Arena
-Created with CodeSandbox
+
+Remake of the Arena sites using ReactJS
