@@ -1,0 +1,16 @@
+{
+  "name": "Naruto",
+  "views": {
+    "gameManual": {
+      "images": {
+        "headerImg": "https://web.archive.org/web/20160429145647im_/http://www.naruto-arena.com/images/pres/pre3.gif",
+        "descrImg": [
+          "https://web.archive.org/web/20160313213859im_/http://naruto-arena.com/images/content/30/thumbnail.jpg",
+          "https://web.archive.org/web/20160406122353im_/http://www.naruto-arena.com/images/content/31/thumbnail.jpg",
+          "https://web.archive.org/web/20160406122353im_/http://www.naruto-arena.com/images/content/29/thumbnail.jpg",
+          "https://web.archive.org/web/20160406122353im_/http://www.naruto-arena.com/images/content/33/thumbnail.jpg"
+        ]
+      }
+    }
+  }
+}
