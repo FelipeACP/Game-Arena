@@ -1,33 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import Game from "../views/Game";
 
-export const Logo = () => (
-  <div id="logo">
-    <div id="mainnavigation">
-      <ul>
-        <NavegationButton key="startpage" link="/" text="Start Page" />
-        <NavegationButton key="game" link="/game" text="Start Playing" />
-        <NavegationButton
-          key="game-manual"
-          link="/game-manual"
-          text="Game Manual"
-        />
-        <NavegationButton key="ladders" link="/ladders" text="Ladders" />
-        <NavegationButton
-          key="mission"
-          link="/ninja-missions"
-          text="Ninja Missions"
-        />
-        <NavegationButton
-          key="discord"
-          link="https://discordapp.com/invite/yEFaw6f"
-          text="Discord"
-        />
-      </ul>
+export const Logo = () => {
+  const [open, setOpen] = useState(false);
+  return (
+    <div id="logo">
+      <div id="mainnavigation">
+        <ul>
+          <NavegationButton key="startpage" link="/" text="Start Page" />
+          <RawButton pointer>
+            <span onClick={() => setOpen(true)}>Start Playing</span>
+            {open && <Game onClose={() => setOpen(false)} />}
+          </RawButton>
+          <NavegationButton
+            key="game-manual"
+            link="/game-manual"
+            text="Game Manual"
+          />
+          <NavegationButton key="ladders" link="/ladders" text="Ladders" />
+          <NavegationButton key="missions" link="/missions" text="Missions" />
+          <RawButton>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://discordapp.com/invite/yEFaw6f"
+            >
+              Discord
+            </a>
+          </RawButton>
+        </ul>
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 const NavegationButton = ({ link, source, text }) => (
   <RawButton>
@@ -55,4 +62,5 @@ const RawButton = styled.li`
   text-transform: none;
   font-variant: small-caps;
   letter-spacing: 0;
+  cursor: ${props => props.pointer && "pointer"};
 `;

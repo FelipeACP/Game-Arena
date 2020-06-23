@@ -734,7 +734,7 @@ ul li {
 
 #randomheader {
   width: 394px;
-  height: 143px;
+  height: 144px;
   border-top: 1px solid #000000;
   background-repeat: no-repeat;
 }
@@ -795,7 +795,7 @@ div.nav a:hover {
 }
 
 #container1 {
-  width: 395px;
+  width: 396px;
   line-height: 16px;
   border-top: 1px solid #000000;
   border-left: 1px solid #000000;
@@ -805,7 +805,7 @@ div.nav a:hover {
 }
 
 #container2 {
-  width: 586px;
+  width: 587px;
   line-height: 16px;
   border-top: 1px solid #000000;
   border-left: 1px solid #000000;
@@ -981,7 +981,7 @@ div.descrtext {
 }
 
 div.descrcontent {
-  height: 48px;
+  height: 58px;
   background-color: #fafafa;
   padding: 5px;
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import { Route, Switch, withRouter } from "react-router-dom";
 import Home from "./Home";
+import Ladder from "./Ladder";
+import Mission from "./Mission";
 import { Manual } from "./Manual";
 import { Container } from "./elements";
 const Test = () => <Container title="Random" />;
@@ -11,8 +13,8 @@ const RoutesComponent = () => {
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/game-manual" component={Manual} />
-      <Route exact path="/ladders" component={Test} />
-      <Route exact path="/ninja-missions" component={Test} />
+      <Route exact path="/ladders" component={Ladder} />
+      <Route exact path="/missions" component={Mission} />
       <Route exact path="/the-basics" component={Test} />
       <Route exact path="/news" component={Test} />
       <Route path="/news/:title" component={Test} />
