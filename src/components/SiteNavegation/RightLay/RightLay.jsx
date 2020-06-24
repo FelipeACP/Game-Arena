@@ -25,12 +25,7 @@ export const RightLay = () => {
           <li>
             <span className="ladder1">1</span>
             <div className="player">
-              <a
-                style={{ textDecoration: "none" }}
-                href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/ERZA"
-              >
-                ERZA
-              </a>
+              ERZA
               <div className="levelBackground">
                 <div className="levelFill" style={{ width: 45.960223741454 }} />
                 <div className="levelNumber">43</div>
@@ -40,12 +35,7 @@ export const RightLay = () => {
           <li>
             <span className="ladder1">2</span>
             <div className="player">
-              <a
-                style={{ textDecoration: "none" }}
-                href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/Vojathesila"
-              >
-                Vojathesila
-              </a>
+              Vojathesila
               <div className="levelBackground">
                 <div className="levelFill" style={{ width: 43.163455562461 }} />
                 <div className="levelNumber">43</div>
@@ -55,12 +45,7 @@ export const RightLay = () => {
           <li>
             <span className="ladder1">3</span>
             <div className="player">
-              <a
-                style={{ textDecoration: "none" }}
-                href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/Lois"
-              >
-                Lois
-              </a>
+              Lois
               <div className="levelBackground">
                 <div className="levelFill" style={{ width: 2.6569297700435 }} />
                 <div className="levelNumber">43</div>
@@ -70,12 +55,7 @@ export const RightLay = () => {
           <li>
             <span className="ladder1">4</span>
             <div className="player">
-              <a
-                style={{ textDecoration: "none" }}
-                href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/BUBBLECHEWs"
-              >
-                BUBBLECHEWs
-              </a>
+              BUBBLECHEWs
               <div className="levelBackground">
                 <div className="levelFill" style={{ width: 42 }} />
                 <div className="levelNumber">42</div>
@@ -85,12 +65,7 @@ export const RightLay = () => {
           <li>
             <span className="ladder1">5</span>
             <div className="player">
-              <a
-                style={{ textDecoration: "none" }}
-                href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/Doge"
-              >
-                Doge
-              </a>
+              Doge
               <div className="levelBackground">
                 <div className="levelFill" style={{ width: 39.047619047619 }} />
                 <div className="levelNumber">42</div>
@@ -100,12 +75,7 @@ export const RightLay = () => {
           <li>
             <span className="ladder1">6</span>
             <div className="player">
-              <a
-                style={{ textDecoration: "none" }}
-                href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/Trevor"
-              >
-                Trevor
-              </a>
+              Trevor
               <div className="levelBackground">
                 <div className="levelFill" style={{ width: 45.74951330305 }} />
                 <div className="levelNumber">41</div>
@@ -115,12 +85,7 @@ export const RightLay = () => {
           <li>
             <span className="ladder1">7</span>
             <div className="player">
-              <a
-                style={{ textDecoration: "none" }}
-                href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/BielSinx"
-              >
-                BielSinx
-              </a>
+              BielSinx
               <div className="levelBackground">
                 <div className="levelFill" style={{ width: 39.373783257625 }} />
                 <div className="levelNumber">41</div>
@@ -130,12 +95,7 @@ export const RightLay = () => {
           <li>
             <span className="ladder1">8</span>
             <div className="player">
-              <a
-                style={{ textDecoration: "none" }}
-                href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/Vast4go"
-              >
-                Vast4go
-              </a>
+              Vast4go
               <div className="levelBackground">
                 <div className="levelFill" style={{ width: 31.829980532122 }} />
                 <div className="levelNumber">41</div>
@@ -145,12 +105,7 @@ export const RightLay = () => {
           <li>
             <span className="ladder1">9</span>
             <div className="player">
-              <a
-                style={{ textDecoration: "none" }}
-                href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/Venny"
-              >
-                Venny
-              </a>
+              Venny
               <div className="levelBackground">
                 <div className="levelFill" style={{ width: 14.114211550941 }} />
                 <div className="levelNumber">41</div>
@@ -160,12 +115,7 @@ export const RightLay = () => {
           <li>
             <span className="ladder1">10</span>
             <div className="player">
-              <a
-                style={{ textDecoration: "none" }}
-                href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/eciepecie22"
-              >
-                eciepecie22
-              </a>
+              eciepecie22
               <div className="levelBackground">
                 <div className="levelFill" style={{ width: 10.902011680727 }} />
                 <div className="levelNumber">41</div>
@@ -180,9 +130,7 @@ export const RightLay = () => {
           <li>
             <span className="ladder1">1</span>
             <div className="player">
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/clan/profile/26">
-                Rurouni Kenshin
-              </a>
+              Rurouni Kenshin
               <div className="levelBackground">
                 <div className="levelFill" style={{ width: 10.620831195485 }} />
                 <div className="levelNumber">53</div>
@@ -192,9 +140,7 @@ export const RightLay = () => {
           <li>
             <span className="ladder1">2</span>
             <div className="player">
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/clan/profile/15">
-                Kyoujin
-              </a>
+              Kyoujin
               <div className="levelBackground">
                 <div className="levelFill" style={{ width: 37.400318979266 }} />
                 <div className="levelNumber">51</div>
@@ -204,9 +150,7 @@ export const RightLay = () => {
           <li>
             <span className="ladder1">3</span>
             <div className="player">
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/clan/profile/125">
-                Love Team
-              </a>
+              Love Team
               <div className="levelBackground">
                 <div className="levelFill" style={{ width: 16.888384166126 }} />
                 <div className="levelNumber">41</div>
@@ -216,9 +160,7 @@ export const RightLay = () => {
           <li>
             <span className="ladder1">4</span>
             <div className="player">
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/clan/profile/74">
-                Gods of evil
-              </a>
+              Gods of evil
               <div className="levelBackground">
                 <div className="levelFill" style={{ width: 59.164969450102 }} />
                 <div className="levelNumber">39</div>
@@ -228,9 +170,7 @@ export const RightLay = () => {
           <li>
             <span className="ladder1">5</span>
             <div className="player">
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/clan/profile/407">
-                Jougan
-              </a>
+              Jougan
               <div className="levelBackground">
                 <div className="levelFill" style={{ width: 15.242914979757 }} />
                 <div className="levelNumber">32</div>
@@ -240,9 +180,7 @@ export const RightLay = () => {
           <li>
             <span className="ladder1">6</span>
             <div className="player">
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/clan/profile/42">
-                Black Command
-              </a>
+              Black Command
               <div className="levelBackground">
                 <div className="levelFill" style={{ width: 52.570694087404 }} />
                 <div className="levelNumber">30</div>
@@ -252,9 +190,7 @@ export const RightLay = () => {
           <li>
             <span className="ladder1">7</span>
             <div className="player">
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/clan/profile/25">
-                Ethereal
-              </a>
+              Ethereal
               <div className="levelBackground">
                 <div className="levelFill" style={{ width: 48.600645855759 }} />
                 <div className="levelNumber">23</div>
@@ -264,9 +200,7 @@ export const RightLay = () => {
           <li>
             <span className="ladder1">8</span>
             <div className="player">
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/clan/profile/11">
-                Shometsu
-              </a>
+              Shometsu
               <div className="levelBackground">
                 <div className="levelFill" style={{ width: 31.759776536313 }} />
                 <div className="levelNumber">22</div>
@@ -276,9 +210,7 @@ export const RightLay = () => {
           <li>
             <span className="ladder1">9</span>
             <div className="player">
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/clan/profile/95">
-                Arise
-              </a>
+              Arise
               <div className="levelBackground">
                 <div className="levelFill" style={{ width: 13.066202090592 }} />
                 <div className="levelNumber">21</div>
@@ -288,9 +220,7 @@ export const RightLay = () => {
           <li>
             <span className="ladder1">10</span>
             <div className="player">
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/clan/profile/466">
-                Sensō Ai
-              </a>
+              Sensō Ai
               <div className="levelBackground">
                 <div className="levelFill" style={{ width: 38.114754098361 }} />
                 <div className="levelNumber">19</div>
@@ -305,9 +235,7 @@ export const RightLay = () => {
           <li>
             <span>1.</span>
             <div>
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/Klon">
-                Klon
-              </a>{" "}
+              Klon
               <b>+2928</b> wins
             </div>
           </li>
@@ -315,9 +243,7 @@ export const RightLay = () => {
           <li>
             <span>2.</span>
             <div>
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/Turza">
-                Turza
-              </a>{" "}
+              Turza
               <b>+2277</b> wins
             </div>
           </li>
@@ -325,9 +251,7 @@ export const RightLay = () => {
           <li>
             <span>3.</span>
             <div>
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/renzo">
-                renzo
-              </a>{" "}
+              renzo
               <b>+1411</b> wins
             </div>
           </li>
@@ -335,9 +259,7 @@ export const RightLay = () => {
           <li>
             <span>4.</span>
             <div>
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/Setsuhen">
-                Setsuhen
-              </a>{" "}
+              Setsuhen
               <b>+1148</b> wins
             </div>
           </li>
@@ -345,9 +267,7 @@ export const RightLay = () => {
           <li>
             <span>5.</span>
             <div>
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/TsuyoiNakama">
-                TsuyoiNakama
-              </a>{" "}
+              TsuyoiNakama
               <b>+1086</b> wins
             </div>
           </li>
@@ -355,9 +275,7 @@ export const RightLay = () => {
           <li>
             <span>6.</span>
             <div>
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/CrimsonShadow">
-                CrimsonShadow
-              </a>{" "}
+              CrimsonShadow
               <b>+1069</b> wins
             </div>
           </li>
@@ -365,9 +283,7 @@ export const RightLay = () => {
           <li>
             <span>7.</span>
             <div>
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/Lois">
-                Lois
-              </a>{" "}
+              Lois
               <b>+1059</b> wins
             </div>
           </li>
@@ -375,9 +291,8 @@ export const RightLay = () => {
           <li>
             <span>8.</span>
             <div>
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/Nightbringer">
-                Nightbringer
-              </a>{" "}
+              {" "}
+              Nightbringer
               <b>+1017</b> wins
             </div>
           </li>
@@ -385,9 +300,7 @@ export const RightLay = () => {
           <li>
             <span>9.</span>
             <div>
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/Sternkrieg">
-                Sternkrieg
-              </a>{" "}
+              Sternkrieg
               <b>+1006</b> wins
             </div>
           </li>
@@ -395,9 +308,7 @@ export const RightLay = () => {
           <li>
             <span>10.</span>
             <div>
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/Shizavr">
-                Shizavr
-              </a>{" "}
+              Shizavr
               <b>+991</b> wins
             </div>
           </li>
@@ -409,9 +320,7 @@ export const RightLay = () => {
           <li>
             <span>1.</span>
             <div>
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/zaenille">
-                zaenille
-              </a>{" "}
+              zaenille
               <b>+24</b> streak
             </div>
           </li>
@@ -419,9 +328,7 @@ export const RightLay = () => {
           <li>
             <span>2.</span>
             <div>
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/Juninho">
-                Juninho
-              </a>{" "}
+              Juninho
               <b>+24</b> streak
             </div>
           </li>
@@ -429,9 +336,7 @@ export const RightLay = () => {
           <li>
             <span>3.</span>
             <div>
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/Sougo">
-                Sougo
-              </a>{" "}
+              Sougo
               <b>+24</b> streak
             </div>
           </li>
@@ -439,9 +344,7 @@ export const RightLay = () => {
           <li>
             <span>4.</span>
             <div>
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/OkabeRintarou">
-                OkabeRintarou
-              </a>{" "}
+              OkabeRintarou
               <b>+23</b> streak
             </div>
           </li>
@@ -449,9 +352,7 @@ export const RightLay = () => {
           <li>
             <span>5.</span>
             <div>
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/guiguiba">
-                guiguiba
-              </a>{" "}
+              guiguiba
               <b>+21</b> streak
             </div>
           </li>
@@ -459,9 +360,7 @@ export const RightLay = () => {
           <li>
             <span>6.</span>
             <div>
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/Akai">
-                Akai
-              </a>{" "}
+              Akai
               <b>+20</b> streak
             </div>
           </li>
@@ -469,9 +368,7 @@ export const RightLay = () => {
           <li>
             <span>7.</span>
             <div>
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/Wolverine">
-                Wolverine
-              </a>{" "}
+              Wolverine
               <b>+20</b> streak
             </div>
           </li>
@@ -479,9 +376,7 @@ export const RightLay = () => {
           <li>
             <span>8.</span>
             <div>
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/Aqua">
-                Aqua
-              </a>{" "}
+              Aqua
               <b>+20</b> streak
             </div>
           </li>
@@ -489,9 +384,7 @@ export const RightLay = () => {
           <li>
             <span>9.</span>
             <div>
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/Krwling">
-                Krwling
-              </a>{" "}
+              Krwling
               <b>+17</b> streak
             </div>
           </li>
@@ -499,9 +392,7 @@ export const RightLay = () => {
           <li>
             <span>10.</span>
             <div>
-              <a href="https://web.archive.org/web/20191003140654/https://naruto-arena.net/profile/Wa2z">
-                Wa2z
-              </a>{" "}
+              Wa2z
               <b>+16</b> streak
             </div>
           </li>

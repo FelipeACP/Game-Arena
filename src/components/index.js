@@ -4,3 +4,4 @@ export { LeftLay, RightLay } from "./SiteNavegation";
 export { Section } from "./Section";
 export { Breadcrumbs } from "./Breadcrumb";
 export { Post } from "./Post";
+export { Form } from "./Form";
