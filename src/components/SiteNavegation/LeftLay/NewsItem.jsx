@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const NewsItem = ({ title, link }) => (
+const NewsItem = ({ title = "" }) => (
   <li>
     <div>
       <img
@@ -12,7 +12,7 @@ const NewsItem = ({ title, link }) => (
       &nbsp;
     </div>
     <div>
-      <Link to={link}>
+      <Link to={`/news/${title.replace(" ", "-")}`}>
         <u>{title}</u>
       </Link>
     </div>

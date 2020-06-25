@@ -8,7 +8,7 @@ export const Logo = () => {
   return (
     <div id="logo">
       <div id="mainnavigation">
-        <ul>
+        <ul className="newst">
           <NavegationButton key="startpage" link="/" text="Start Page" />
           <RawButton pointer>
             <span onClick={() => setOpen(true)}>Start Playing</span>
