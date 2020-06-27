@@ -5,3 +5,4 @@ export { Section } from "./Section";
 export { Breadcrumbs } from "./Breadcrumb";
 export { Post } from "./Post";
 export { Form } from "./Form";
+export { Table } from "./Table";

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 
 const UserMenu = ({ userInfo }) => {
@@ -20,7 +20,7 @@ const UserMenu = ({ userInfo }) => {
           </li>
           <li>
             <NavLink to="/private-messages" activeClassName="active">
-              Private messages
+              Private messages (0 new)
             </NavLink>
           </li>
           <li>

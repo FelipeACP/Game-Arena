@@ -1203,13 +1203,24 @@ a.pmprofile:link,
 a.pmprofile:visited,
 a.pmprofile:active,
 a.pmprofile:hover {
-  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
   color: #052d33;
 }
 
 #pmsend {
   width: 70%;
   padding-top: 10px;
+}
+
+.gray {
+  background-color: #f5f4f4;
+}
+
+.empty-message {
+  font-weight: bold;
+  color: red;
+  text-align: center;
 }
 
 /* na-missions.tpl css

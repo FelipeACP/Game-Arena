@@ -14,11 +14,21 @@ export const Row = ({ field }) => (
         <label htmlFor={field.type}>{field.label}</label>
       </td>
       <td width="75%">
-        <input
-          type={field.type}
-          name={field.name}
-          maxLength={field.maxlength}
-        />
+        {field.type === "select" ? (
+          <select>
+            {field.options.map(option => (
+              <option key={option} value={option}>
+                {option}
+              </option>
+            ))}
+          </select>
+        ) : (
+          <input
+            type={field.type}
+            name={field.name}
+            maxLength={field.maxlength}
+          />
+        )}
       </td>
     </tr>
   </Fragment>
