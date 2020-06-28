@@ -10,6 +10,8 @@ import PrivateMessage from "./PrivateMessage";
 import ChangePassword from "./ChangePassword";
 import CustomBackgrounds from "./CustomBackgrounds";
 import ResetAccount from "./ResetAccount";
+import ControlPainel from "./ControlPainel";
+import ClanPainel from "./ClanPainel";
 import { Container } from "./elements";
 const Test = () => <Container title="Random" />;
 const NotFound = () => <Container title="Not Found" />;
@@ -31,7 +33,7 @@ const RoutesComponent = () => {
       <Route path="/clan/:id" component={Test} />
 
       {/* Private routes */}
-      <Route exact path="/control-painel" component={Test} />
+      <Route exact path="/control-painel" component={ControlPainel} />
       <Route
         exact
         path="/private-messages"
@@ -39,9 +41,10 @@ const RoutesComponent = () => {
       />
       <Route exact path="/private-messages/inbox" component={PrivateMessage} />
       <Route exact path="/private-messages/outbox" component={PrivateMessage} />
+      <Route exact path="/private-messages/send" component={PrivateMessage} />
       <Route exact path="/change-password" component={ChangePassword} />
       <Route exact path="/change-avatar" component={Test} />
-      <Route exact path="/clan-painel" component={Test} />
+      <Route exact path="/clan-painel" component={ClanPainel} />
       <Route exact path="/custom-backgrounds" component={CustomBackgrounds} />
       <Route exact path="/reset-account" component={ResetAccount} />
       <Route exact path="/logout" component={Test} />

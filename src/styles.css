@@ -1211,6 +1211,7 @@ a.pmprofile:hover {
 #pmsend {
   width: 70%;
   padding-top: 10px;
+  text-align: center;
 }
 
 .gray {

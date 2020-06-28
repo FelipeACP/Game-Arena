@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "../elements";
 import { Tabs } from "./Tabs";
 import { Table } from "../../components";
+import Send from "./Send";
 
 export default class PrivateMessage extends React.Component {
   state = {
@@ -15,6 +16,7 @@ export default class PrivateMessage extends React.Component {
       { name: "Date", width: "20%" },
       { name: "Options", width: "20%" }
     ];
+    const location = match.path.split("/")[2];
     return (
       <Container title="Private Messages" match={match}>
         <span>
@@ -26,13 +28,17 @@ export default class PrivateMessage extends React.Component {
         <div className="brspacer" />
         <Tabs />
         <br />
-        <Table
-          columns={columns}
-          rows={this.state.messages}
-          emptyMessage={`You have no private messages in your ${
-            match.path.split("/")[2]
-          }`}
-        />
+        {location !== "send" ? (
+          <Table
+            columns={columns}
+            rows={this.state.messages}
+            emptyMessage={`You have no private messages in your ${
+              match.path.split("/")[2]
+            }`}
+          />
+        ) : (
+          <Send />
+        )}
       </Container>
     );
   }
