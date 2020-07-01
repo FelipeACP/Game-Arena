@@ -1,17 +1,17 @@
 import React from "react";
 
 export const Painel = ({ title, headerImg, children }) => (
-  <table class="max">
+  <table className="max">
     <tbody>
       <tr>
-        <td class="title" colspan="2">
+        <td className="title" colSpan="2">
           <img alt="" class="pre" src={headerImg} />
           {title}
         </td>
       </tr>
       {children}
       <tr>
-        <td class="dots" colspan="2" />
+        <td className="dots" colSpan="2" />
       </tr>
     </tbody>
   </table>

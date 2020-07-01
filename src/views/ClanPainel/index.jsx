@@ -20,7 +20,7 @@ const ClanPainel = ({ match }) => (
           <br />
           Your Rank:
           <br />
-          <h2>Clanless</h2>
+          <h2>None</h2>
         </div>
       </div>
     </div>

@@ -29,7 +29,7 @@ const UserMenu = ({ userInfo }) => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="change-avatar" activeClassName="active">
+            <NavLink to="/change-avatar" activeClassName="active">
               Change avatar
             </NavLink>
           </li>

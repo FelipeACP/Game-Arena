@@ -40,10 +40,7 @@ export const RowValue = ({ field, i }) => (
       <td width="30%">
         <label htmlFor={field.type}>{field.label}</label>
       </td>
-      <td width="70%">
-        {field.img && <img alt="" src={field.img} />}
-        {field.text ? field.text : null}
-      </td>
+      <td width="70%">{field.component}</td>
     </tr>
   </Fragment>
 );

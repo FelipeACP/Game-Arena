@@ -5,6 +5,7 @@ import Ladder from "./Ladder";
 import Mission from "./Mission";
 import { Manual } from "./Manual";
 import LostPassword from "./LostPassword";
+import Profile from "./Profile";
 import Register from "./Register";
 import PrivateMessage from "./PrivateMessage";
 import ChangePassword from "./ChangePassword";
@@ -12,6 +13,7 @@ import CustomBackgrounds from "./CustomBackgrounds";
 import ResetAccount from "./ResetAccount";
 import ControlPainel from "./ControlPainel";
 import ClanPainel from "./ClanPainel";
+import ChangeAvatar from "./ChangeAvatar";
 import { Container } from "./elements";
 const Test = () => <Container title="Random" />;
 const NotFound = () => <Container title="Not Found" />;
@@ -29,7 +31,7 @@ const RoutesComponent = () => {
       <Route exact path="/the-basics" component={Test} />
       <Route exact path="/news" component={Test} />
       <Route path="/news/:title" component={Test} />
-      <Route path="/profile/:username" component={Test} />
+      <Route path="/profile/:username" component={Profile} />
       <Route path="/clan/:id" component={Test} />
 
       {/* Private routes */}
@@ -43,11 +45,11 @@ const RoutesComponent = () => {
       <Route exact path="/private-messages/outbox" component={PrivateMessage} />
       <Route exact path="/private-messages/send" component={PrivateMessage} />
       <Route exact path="/change-password" component={ChangePassword} />
-      <Route exact path="/change-avatar" component={Test} />
+      <Route exact path="/change-avatar" component={ChangeAvatar} />
       <Route exact path="/clan-painel" component={ClanPainel} />
       <Route exact path="/custom-backgrounds" component={CustomBackgrounds} />
       <Route exact path="/reset-account" component={ResetAccount} />
-      <Route exact path="/logout" component={Test} />
+      <Route exact path="/logout" render={() => <Redirect to="/" />} />
 
       <Route component={NotFound} />
     </Switch>

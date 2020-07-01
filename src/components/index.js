@@ -7,3 +7,4 @@ export { Post } from "./Post";
 export { Form } from "./Form";
 export { Table } from "./Table";
 export { Card } from "./Card";
+export { Segment } from "./Segment";
