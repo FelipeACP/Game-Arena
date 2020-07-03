@@ -13,14 +13,7 @@ const AvatarImage = ({ url, isLoading, ...attributes }) => {
   return (
     <div class="ui dimmable">
       <AvatarDimmer isLoading={isLoading} />
-      <img
-        src={url}
-        alt=""
-        width="75"
-        height="75"
-        dimmer={<AvatarDimmer isLoading={isLoading} />}
-        {...attributes}
-      />
+      <img src={url} alt="" width="75" height="75" {...attributes} />
     </div>
   );
 };
@@ -31,6 +24,10 @@ export default class ChangeAvatar extends Component {
       "https://web.archive.org/web/20071020084938im_/http://www.naruto-arena.com/images/avatars/uploaded/5.jpg",
     loading: false
   };
+  componentWillUnmount() {
+    this.revokeUrl();
+  }
+
   handleSubmit = ev => {
     ev.preventDefault();
     this.setState({ loading: true });
@@ -58,8 +55,8 @@ export default class ChangeAvatar extends Component {
           <fieldset>
             <legend>Upload your avatar</legend>
             <ul className="num">
-              <li>Custom Avatar may not be over 100kb</li>
-              <li>Only jpeg, png format are allowed</li>
+              <li>Custom Avatar may not be over 100kb.</li>
+              <li>Only jpeg, png format are allowed.</li>
             </ul>
             <table>
               <tbody>
@@ -88,7 +85,7 @@ export default class ChangeAvatar extends Component {
                         </tr>
                         <tr>
                           <td>
-                            <input type="submit" />
+                            <input type="submit" className="button" />
                           </td>
                         </tr>
                       </tbody>
